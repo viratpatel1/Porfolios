@@ -66,7 +66,7 @@ function Banner()
                 <span><Typewriter
                   options={{
                     strings: [
-                      '<span style="color: black;" >Engineer</span>',
+                      '<span style="color: black;" >Engineering</span>',
                       '<span style="color: black;" >Programmer</span>'],
                     autoStart: true,
                     loop: true,
@@ -97,4 +97,3 @@ function Banner()
 
 export default App;
 
-     
