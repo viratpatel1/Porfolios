@@ -1,0 +1,10 @@
+.carousel {
+  width: 60%;
+  /* height: 70%; */
+  border: 1px solid black;
+  background-color: black;
+  cursor: pointer;
+  /* align-items: center;
+  text-align: center;
+  justify-content: center; */
+}

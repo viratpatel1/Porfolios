@@ -1,0 +1,84 @@
+.svg-img img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.contact-row {
+  /* border: 1px solid black; */
+  min-height: 100vh;
+}
+.Contact ul {
+  display: flex;
+  margin: 0 20px 0 0;
+}
+.Contact ul li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 40px;
+  margin: 10px 0 0 5px;
+  padding: 0 0 0 20px;
+  transition: transform 0.3s;
+}
+.Contact ul li:hover {
+  transform: scale(1.2);
+}
+.contact-row ul li a {
+  text-decoration: none;
+  color: black;
+}
+.contact-row ul li p {
+  cursor: pointer;
+  color: black;
+  font-size: 10px;
+  margin: 0 0 -5px 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.contact-row ul li:hover p {
+  z-index: 1;
+  opacity: 1;
+  pointer-events: auto;
+}
+.Contact ul li img {
+  width: 40px;
+}
+.get {
+  margin: 20% 0 0 0;
+}
+@media screen and (max-width: 990px) {
+  .get {
+    margin: 40% 0 0 0;
+  }
+}
+@media screen and (max-width: 580px) {
+  .Contact .contact-row {
+    flex-direction: column-reverse;
+  }
+  .get {
+    margin: 20% 0 0 0;
+    text-align: center;
+  }
+  .svg-img {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: -15% 0 0 20%;
+    z-index: 1;
+  }
+  .Contact ul {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .svg-img {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: -30% 0 0 8%;
+  }
+}
