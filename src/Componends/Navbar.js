@@ -20,7 +20,7 @@ const Navbar = () =>
                             <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="Skill" smooth={true} duration={300}>Skill</Link></li>
                             <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="main" smooth={true} duration={300}>Project</Link></li>
                             <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="Contact" smooth={true} duration={300}>Contact</Link></li>
-                            <li><Link href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view" target="_blank" >Resume</Link></li>
+                            {/* <li><Link href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view" target="_blank" >Resume</Link></li> */}
                         </ul>
                     </div>
                 </div>
