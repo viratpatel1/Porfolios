@@ -67,7 +67,7 @@ function Banner()
                   options={{
                     strings: [
                       '<span style="color: black;" >Engineering</span>',
-                      '<span style="color: black;" >Programmer</span>'],
+                      '<span style="color: black;" >Programming</span>'],
                     autoStart: true,
                     loop: true,
                   }}
