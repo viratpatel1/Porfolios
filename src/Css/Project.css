@@ -15,7 +15,7 @@
   display: grid;
   font-family: "Nunito", sans-serif;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 50px;
   align-items: center;
   padding: 60px 0px 0px 40px;
 }
@@ -26,8 +26,8 @@
   float: left;
   height: 100%;
   /* margin: 20px 50px 20px 20px; */
-  padding: 4px 8px;
   padding: 10px;
+  margin: 0 0 0% 0;
   box-shadow: 1px 5px 28px #888888;
 }
 /* .container-left:hover,
@@ -40,6 +40,15 @@
 }
 .container-left img:hover {
   transform: scale(1.04);
+}
+.tech {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.tech li {
+  border-bottom: 1px solid black;
+  font-size: 13px;
 }
 @media screen and (max-width: 770px) {
   .contain {

@@ -59,7 +59,7 @@ function Banner()
         <Container>
           <Row className="row" >
             <Col className="Detail" >
-              <h4>Hey !</h4>
+              <h4 style={{ fontSize: "40px" }}>Hey !</h4>
               <h1>I'm Virat Patel</h1>
               <h4>I'm a Full stack Web Developer</h4>
               <p>Also done <AiOutlineArrowDown />
@@ -75,7 +75,7 @@ function Banner()
                 </span>
               </p>
               <ul>
-                <li><p>Github</p><a href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view" target="_blank" ><AiFillGithub /></a></li>
+                <li><p>Github</p><a href="https://github.com/viratpatel1" target="_blank" ><AiFillGithub /></a></li>
                 <li><p>Linkedin</p><a href="https://www.linkedin.com/in/virat-patel-9752441b1/" target="_blank" ><AiFillLinkedin /></a></li>
                 <li><p>HackerRank</p><a href="https://www.hackerrank.com/viratpatel993" target="_blank"><FaHackerrank /></a></li>
                 <li><p>CodeChef</p><a href="https://www.codechef.com/users/viratpatel" target="_blank"><SiCodechef style={{ margin: "0 0 0 -20px" }} /></a></li>

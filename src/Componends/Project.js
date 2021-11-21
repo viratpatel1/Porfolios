@@ -4,7 +4,6 @@ import { AiFillGithub } from 'react-icons/ai';
 import { Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Css/Project.css'
-// import '../CSS/Project.css';
 
 const Project = () =>
 {
@@ -12,7 +11,7 @@ const Project = () =>
         <div className="main">
             <div id="con" className="container">
                 <h1 className="pro" style={{ color: "" }} >Project</h1>
-                < div id="Project" className="contain" >
+                <div id="Project" className="contain" >
                     < Card className="container-left" style={{ width: '18rem' }}>
                         <Card.Img className="img" variant="top" src="image/CRUD.jpg" alt="Img" />
                         <Card.Body  >
@@ -20,6 +19,13 @@ const Project = () =>
                             <Card.Text >
                                 Web App where You can easily Create and Delete your Infomation.
                             </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                            <ul className="tech" >
+                                <li>React</li>
+                                <li> React Hooks</li>
+                                <li>API</li>
+                            </ul>
                         </Card.Body>
 
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>
@@ -29,17 +35,24 @@ const Project = () =>
                     </Card>
 
                     <Card className="container-left" style={{ width: '18rem' }}>
-                        <Card.Img className="img" variant="top" src="image/frontPage.jpg" alt="Img" />
+                        <Card.Img className="img" variant="top" src="image/bookmyshow.jpg" alt="Img" />
                         <Card.Body>
-                            <Card.Title>Pricing tag UI</Card.Title>
+                            <Card.Title>Book my show</Card.Title>
                             <Card.Text>
-                                Created a Demo of Pricing tag UI similar to  Bootstrap by using React JS
+                                MERN App where user can book there movie ticket.
+                                Admin:-admin@gmail.com pass:-admin
                             </Card.Text>
                         </Card.Body>
-
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>
-                            <Card.Link target="_blank" href="https://pricing-table-bootstrap.netlify.app/   "><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/viratpatel1/Price_table_bootstrap"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
+                            <ul className="tech" >
+                                <li>React</li>
+                                <li>Mongodb</li>
+                                <li>Node js</li>
+                            </ul>
+                        </Card.Body>
+                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                            <Card.Link target="_blank" href="https://books-my-shows.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
+                            <Card.Link target="_blank" href="https://github.com/viratpatel1/Books-my-shows"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
                         </Card.Body>
                     </Card>
 
@@ -51,40 +64,57 @@ const Project = () =>
                                 It's A Demo of A Gmail Where you can Login with your valid email id to check yr email
                             </Card.Text>
                         </Card.Body>
-
+                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                            <ul className="tech" >
+                                <li>HTML </li>
+                                <li>JavasScript</li>
+                            </ul>
+                        </Card.Body>
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>
                             <Card.Link target="_blank" href="https://blissful-raman-c8ad93.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
                             <Card.Link target="_blank" href="https://github.com/viratpatel1/1-Hackathon-Gmail-Clone-API"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
                         </Card.Body>
                     </Card>
                     <Card className="container-left" style={{ width: '18rem', color: "black" }}>
-                        <Card.Img style={{ height: "43%" }} className="img" variant="top" src="image/Calculater.jpg" alt="Img" />
+                        <Card.Img style={{ height: "43%" }} className="img" variant="top" src="image/kbc.jpg" alt="Img" />
                         <Card.Body>
-                            <Card.Title>Calculator</Card.Title>
+                            <Card.Title>KBC</Card.Title>
                             <Card.Text>
-                                A Basic Calculator made by using HTMl, CSS and Javascript
+                                It's a KBC game you can play and view the increment of amount on your correct answer.
                                 <br />
-                                <br />
+                                {/* <br /> */}
                             </Card.Text>
                         </Card.Body>
-
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>
-                            <Card.Link target="_blank" href="https://flamboyant-kare-ee8410.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/viratpatel1/Calculator-js"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
+                            <ul className="tech" >
+                                <li>React </li>
+                                <li>React Hooks</li>
+                            </ul>
+                        </Card.Body>
+                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                            <Card.Link target="_blank" href="https://kbc-games.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
+                            <Card.Link target="_blank" href="https://github.com/viratpatel1/-KBC"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
                         </Card.Body>
                     </Card>
                     <Card className="container-left" style={{ width: '18rem' }}>
-                        <Card.Img style={{ height: "43%" }} className="img" variant="top" src="image/Form-Table.jpg" alt="Img" />
+                        <Card.Img style={{ height: "43%" }} className="img" variant="top" src="image/API-1.jpg" alt="Img" />
                         <Card.Body>
-                            <Card.Title>Form Table</Card.Title>
+                            <Card.Title> APIs</Card.Title>
                             <Card.Text>
-                                It's A Form table where you can fill the form the see the data at the bottom of the page
+                                Click to see Projects Based on APIs.
                             </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                            <ul className="tech" >
+                                <li>React</li>
+                                <li>API</li>
+                            </ul>
                         </Card.Body>
 
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>
-                            <Card.Link target="_blank" href="https://quirky-brattain-729eaf.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/viratpatel1/Form-Table"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
+                            <Card.Link target="_blank" href="https://moviesdb-api.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
+                            <Card.Link target="_blank" href="https://advice-quote.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
+                            <Card.Link target="_blank" href=" https://realtime-covid-19-cases.netlify.app/ "><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
                         </Card.Body>
                     </Card>
 
@@ -95,6 +125,13 @@ const Project = () =>
                             <Card.Text>
                                 In this user can create there account the post there device photos on the site
                             </Card.Text>
+                        </Card.Body>
+                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                            <ul className="tech" >
+                                <li>React</li>
+                                <li>MongoDB</li>
+                                <li>Nodejs</li>
+                            </ul>
                         </Card.Body>
 
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>

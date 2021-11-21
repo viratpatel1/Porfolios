@@ -11,12 +11,12 @@
   justify-content: center;
 }
 .About-Detail .coll-2 {
-  margin: 20% 0 0 0;
+  margin: 22% 0 0 0;
 }
 .About-Detail img {
   margin: 12% 0 0 15%;
   width: 55%;
-  height: 65%;
+  height: 63%;
   border-radius: 15px;
   transition: transform 0.3s;
 }
