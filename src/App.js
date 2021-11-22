@@ -81,7 +81,7 @@ function Banner()
                 <li><p>CodeChef</p><a href="https://www.codechef.com/users/viratpatel" target="_blank"><SiCodechef style={{ margin: "0 0 0 -20px" }} /></a></li>
               </ul>
               <br />
-              <Button style={{ backgroundColor: "rgb(14, 14, 170)" }} href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view" target="_blank">Resume</Button>{' '}
+              <Button style={{ backgroundColor: "rgb(14, 14, 170)" }} href="https://drive.google.com/file/d/1xDMXY2osyfZO7EitLcmmyZOk5AzRiqIk/view" target="_blank">Resume</Button>{' '}
             </Col>
             <Col className="Img" >
               <img src={SVG} className="Svg-img" alt="Image"></img>
