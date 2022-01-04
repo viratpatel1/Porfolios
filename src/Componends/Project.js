@@ -1,40 +1,83 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Data from './Data';
 import '../Css/Project.css'
 
 const Project = () =>
 {
+    const [noOfElement, setNoOfElement] = useState(3);
+    // const [empty, setEmpty] = useState('Load Mores');
+    const slice = Data.projectData.slice(0, noOfElement);
+    const MaxLength = 9;
+    const Length = slice.length;
+    console.log(Length)
+    const LoadMore = () =>
+    {
+        setNoOfElement(noOfElement + noOfElement);
+
+    }
+
     return (
         <div className="main">
             <div id="con" className="container">
                 <h1 className="pro" style={{ color: "" }} >Project</h1>
                 <div id="Project" className="contain" >
-                    < Card className="container-left" style={{ width: '18rem' }}>
-                        <Card.Img className="img" variant="top" src="image/CRUD.jpg" alt="Img" />
-                        <Card.Body  >
-                            <Card.Title>CRUD App</Card.Title>
-                            <Card.Text >
-                                Web App where You can easily Create and Delete your Infomation.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
-                            <ul className="tech" >
-                                <li>React</li>
-                                <li> React Hooks</li>
-                                <li>API</li>
-                            </ul>
-                        </Card.Body>
 
-                        <Card.Body style={{ margin: "-20px 0 0 0" }}>
-                            <Card.Link target="_blank" href="https://users-cruds.netlify.app/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
-                            <Card.Link target="_blank" href="https://github.com/viratpatel1/CRUD"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
-                        </Card.Body>
-                    </Card>
+                    {slice.map((item, i) =>
+                    {
+                        return (
+                            < Card key={i} className="container-left" style={{ width: '18rem' }}>
+                                <Card.Img className="img" variant="top" src={item.src} alt="Img" />
+                                <Card.Body>
+                                    <Card.Title>{item.title}</Card.Title>
+                                    <Card.Text >
+                                        {item.text}
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Body style={{ margin: "-20px 0 0 0" }}>
+                                    <ul className="tech" >
+                                        {item.features.map((data, i) =>
+                                            <li key={i}>{data[1]}</li>
+                                        )}
+                                    </ul>
+                                </Card.Body>
 
-                    <Card className="container-left" style={{ width: '18rem' }}>
+                                <Card.Body style={{ margin: "-20px 0 0 0" }}>
+
+                                    {item.ProjectUrl1 ? <Card.Link className='tagLink' target="_blank" href={item.ProjectUrl1}><FaExternalLinkAlt style={{ fontSize: "20px", background: 'transparent' }} /></Card.Link> : null}
+                                    {item.GithubUrl1 ? <Card.Link className='tagLink' target="_blank" href={item.GithubUrl1}><AiFillGithub style={{ fontSize: "20px", background: 'transparent' }} /> </Card.Link> : null}
+                                    {item.ProjectUrl2 ? <Card.Link className='tagLink' target="_blank" href={item.ProjectUrl2}><FaExternalLinkAlt style={{ fontSize: "20px", background: 'transparent' }} /></Card.Link> : null}
+                                    {item.GithubUrl2 ? <Card.Link className='tagLink' target="_blank" href={item.GithubUrl2}><AiFillGithub style={{ fontSize: "20px", background: 'transparent' }} /> </Card.Link> : null}
+                                    {item.ProjectUrl3 ? <Card.Link className='tagLink' target="_blank" href={item.ProjectUrl3}><FaExternalLinkAlt style={{ fontSize: "20px", background: 'transparent' }} /></Card.Link> : null}
+
+                                </Card.Body>
+                            </Card>
+                        )
+                    }
+                    )}
+
+                </div>
+                {MaxLength !== Length ? (<button className="btn" onClick={() => LoadMore()} >Show More</button>) : null}
+
+            </div >
+        </div >
+    )
+};
+
+
+export default Project
+
+
+
+
+
+
+
+
+{/* <Card className="container-left" style={{ width: '18rem' }}>
                         <Card.Img className="img" variant="top" src="image/bookmyshow.jpg" alt="Img" />
                         <Card.Body>
                             <Card.Title>Book my show</Card.Title>
@@ -75,6 +118,7 @@ const Project = () =>
                             <Card.Link target="_blank" href="https://github.com/viratpatel1/1-Hackathon-Gmail-Clone-API"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
                         </Card.Body>
                     </Card>
+
                     <Card className="container-left" style={{ width: '18rem', color: "black" }}>
                         <Card.Img style={{ height: "43%" }} className="img" variant="top" src="image/kbc.jpg" alt="Img" />
                         <Card.Body>
@@ -82,7 +126,7 @@ const Project = () =>
                             <Card.Text>
                                 It's a KBC game you can play and view the increment of amount on your correct answer.
                                 <br />
-                                {/* <br /> */}
+                               
                             </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ margin: "-20px 0 0 0" }}>
@@ -96,6 +140,7 @@ const Project = () =>
                             <Card.Link target="_blank" href="https://github.com/viratpatel1/-KBC"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
                         </Card.Body>
                     </Card>
+
                     <Card className="container-left" style={{ width: '18rem' }}>
                         <Card.Img style={{ height: "43%" }} className="img" variant="top" src="image/API-1.jpg" alt="Img" />
                         <Card.Body>
@@ -138,13 +183,4 @@ const Project = () =>
                             <Card.Link target="_blank" href="https://captone-project.herokuapp.com/"><FaExternalLinkAlt style={{ fontSize: "25px" }} /></Card.Link>
                             <Card.Link target="_blank" href="https://github.com/viratpatel1/capstone"><AiFillGithub style={{ fontSize: "30px" }} /></Card.Link>
                         </Card.Body>
-                    </Card>
-
-                </div>
-            </div >
-        </div >
-    )
-};
-
-
-export default Project
+                    </Card> */}

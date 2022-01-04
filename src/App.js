@@ -33,12 +33,6 @@ function App()
         <AboutPage />
 
         <Skill />
-        {/* <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br /> */}
 
         <Project />
         {/* <Certificate /> */}
@@ -61,7 +55,7 @@ function Banner()
             <Col className="Detail" >
               <h4 style={{ fontSize: "40px" }}>Hey !</h4>
               <h1>I'm Virat Patel</h1>
-              <h4>I'm a Full stack Web Developer</h4>
+              <h4>I'm a Full Stack Developer</h4>
               <p>Also done <AiOutlineArrowDown />
                 <span><Typewriter
                   options={{
@@ -75,13 +69,17 @@ function Banner()
                 </span>
               </p>
               <ul>
-                <li><p>Github</p><a href="https://github.com/viratpatel1" target="_blank" ><AiFillGithub /></a></li>
+                <li><a href="https://github.com/viratpatel1" target="_blank" ><AiFillGithub /></a></li>
+                <li><a href="https://www.linkedin.com/in/virat-patel-9752441b1/" target="_blank" ><AiFillLinkedin /></a></li>
+                <li><a href="https://www.hackerrank.com/viratpatel993" target="_blank"><FaHackerrank /></a></li>
+                <li><a href="https://www.codechef.com/users/viratpatel" target="_blank"><SiCodechef style={{ margin: "0 0 0 0px" }} /></a></li>
+                {/* <li><p>Github</p><a href="https://github.com/viratpatel1" target="_blank" ><AiFillGithub /></a></li>
                 <li><p>Linkedin</p><a href="https://www.linkedin.com/in/virat-patel-9752441b1/" target="_blank" ><AiFillLinkedin /></a></li>
                 <li><p>HackerRank</p><a href="https://www.hackerrank.com/viratpatel993" target="_blank"><FaHackerrank /></a></li>
-                <li><p>CodeChef</p><a href="https://www.codechef.com/users/viratpatel" target="_blank"><SiCodechef style={{ margin: "0 0 0 -20px" }} /></a></li>
+                <li><p>CodeChef</p><a href="https://www.codechef.com/users/viratpatel" target="_blank"><SiCodechef style={{ margin: "0 0 0 -20px" }} /></a></li> */}
               </ul>
               <br />
-              <Button style={{ backgroundColor: "rgb(14, 14, 170)" }} href="https://drive.google.com/file/d/1xDMXY2osyfZO7EitLcmmyZOk5AzRiqIk/view" target="_blank">Resume</Button>{' '}
+              <Button className='resbtn' style={{ backgroundColor: "rgb(14, 14, 170)", margin: "10px 0 0 0", padding: "5px 10px" }} href="https://drive.google.com/file/d/183c-rl_wUdbci-w8-TWhe5J0UhT5sMI2/view?usp=sharing" target="_blank">Resume</Button>
             </Col>
             <Col className="Img" >
               <img src={SVG} className="Svg-img" alt="Image"></img>

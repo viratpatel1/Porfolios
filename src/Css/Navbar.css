@@ -12,7 +12,8 @@
 }
 
 .Nav .Logo {
-  margin: 0 20% 0 0;
+  margin: 10px 30% 0 0;
+  font-size: 50px;
 }
 
 .Nav .Nav-name ul {
@@ -26,6 +27,23 @@
   margin: 15px 35px 0 0;
   cursor: pointer;
 }
+
+/* .Nav .Nav-name ul li span {
+  border: 1px solid red;
+  padding: 0 0 0 0;
+} */
+
+/* .Nav .Nav-name ul li {
+  border-bottom: 2px solid rgb(18, 30, 204);
+  width: 100%;
+  border-radius: 1px;
+  bottom: 135px;
+  transition: 0.2s ease;
+} */
+
+/* .Nav .Nav-name ul li:hover {
+  transition: 0.5s ease;
+} */
 
 .React {
   position: fixed;

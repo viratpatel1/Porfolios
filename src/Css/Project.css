@@ -44,11 +44,33 @@
 .tech {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
 }
 .tech li {
+  /* background-color: rgb(33, 90, 196); */
   border-bottom: 1px solid black;
   font-size: 13px;
+  /* padding: 6px; */
+  /* border-radius: 5px; */
+  /* color: white; */
+  margin: -2px 0 -2px 0px;
+}
+.tagLink {
+  background-color: rgb(22, 107, 235);
+  padding: 5px 10px 8px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tagLink:hover {
+  color: rgb(6, 6, 7);
+}
+.btn {
+  margin-top: 2em;
+  padding: 5px;
+  color: white;
+  background-color: rgb(22, 107, 235);
 }
 @media screen and (max-width: 770px) {
   .contain {

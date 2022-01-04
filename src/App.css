@@ -13,7 +13,9 @@
 .banner .Detail {
   margin: 20% 0 0 0;
 }
+/* .resbtn {
 
+} */
 .banner ul {
   display: flex;
   margin: 0 0 0 -50px;
@@ -26,13 +28,13 @@
   text-decoration: none;
   list-style-type: none;
   margin: 0 15px;
-  font-size: 30px;
+  font-size: 33px;
   cursor: pointer;
   color: rgb(14, 14, 170);
   transition: transform 0.3s;
 }
 .Detail ul li:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 .Detail ul li p {
   font-size: 10px;
