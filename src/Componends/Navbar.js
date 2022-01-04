@@ -15,11 +15,11 @@ const Navbar = () =>
                     </div>
                     <div className="Nav-name">
                         <ul>
-                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="banner" smooth={true} duration={300} ><span>HOME</span></Link></li>
-                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="About" smooth={true} duration={300}><span>ABOUT</span></Link></li>
-                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="Skill" smooth={true} duration={300}><span>SKILL</span></Link></li>
-                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="main" smooth={true} duration={300}><span>PROJECT</span></Link></li>
-                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="Contact" smooth={true} duration={300}><span>CONTACT</span></Link></li>
+                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="banner" smooth={true} duration={300} ><span>HOME</span></Link></li>
+                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="About" smooth={true} duration={300}><span>ABOUT</span></Link></li>
+                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="Skill" smooth={true} duration={300}><span>SKILL</span></Link></li>
+                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="main" smooth={true} duration={300}><span>PROJECT</span></Link></li>
+                            <li><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="Contact" smooth={true} duration={300}><span>CONTACT</span></Link></li>
                             {/* <li><Link href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view" target="_blank" >Resume</Link></li> */}
                         </ul>
                     </div>
@@ -39,15 +39,15 @@ const Navbar = () =>
                             placement="end"
                         >
                             <ReactBootStrap.Offcanvas.Header closeButton>
-                                <ReactBootStrap.Offcanvas.Title id="offcanvasNavbarLabel">VP</ReactBootStrap.Offcanvas.Title>
+                                <ReactBootStrap.Offcanvas.Title style={{ color: "rgb(14, 14, 170)" }} id="offcanvasNavbarLabel">VP</ReactBootStrap.Offcanvas.Title>
                             </ReactBootStrap.Offcanvas.Header>
                             <ReactBootStrap.Offcanvas.Body>
-                                <ReactBootStrap.Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="banner" smooth={true} duration={300}><span>HOME</span></Link></ReactBootStrap.Nav.Link>
-                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="About" smooth={true} duration={300}><span>ABOUT</span></Link></ReactBootStrap.Nav.Link>
-                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="Skill" smooth={true} duration={300}><span>SKILL</span></Link></ReactBootStrap.Nav.Link>
-                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="main" smooth={true} duration={300}><span>PROJECT</span></Link></ReactBootStrap.Nav.Link>
-                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" spy={true} to="Contact" smooth={true} duration={300}><span>CONTACT</span></Link></ReactBootStrap.Nav.Link>
+                                <ReactBootStrap.Nav className="justify-content-end flex-grow-1 pe-3 small-nav">
+                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="banner" smooth={true} duration={300}><span>HOME</span></Link></ReactBootStrap.Nav.Link>
+                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="About" smooth={true} duration={300}><span>ABOUT</span></Link></ReactBootStrap.Nav.Link>
+                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="Skill" smooth={true} duration={300}><span>SKILL</span></Link></ReactBootStrap.Nav.Link>
+                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="main" smooth={true} duration={300}><span>PROJECT</span></Link></ReactBootStrap.Nav.Link>
+                                    <ReactBootStrap.Nav.Link><Link style={{ color: "rgb(14, 14, 170)" }} activeClass="active" to="Contact" smooth={true} duration={300}><span>CONTACT</span></Link></ReactBootStrap.Nav.Link>
                                     {/* <ReactBootStrap.Nav.Link href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view" target="_blank">Resume</ReactBootStrap.Nav.Link> */}
                                 </ReactBootStrap.Nav>
                             </ReactBootStrap.Offcanvas.Body>

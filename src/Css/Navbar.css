@@ -27,11 +27,15 @@
   margin: 15px 35px 0 0;
   cursor: pointer;
 }
-
-/* .Nav .Nav-name ul li span {
-  border: 1px solid red;
-  padding: 0 0 0 0;
-} */
+.Nav .Nav-name ul li span {
+  padding: 5px;
+}
+.Nav .Nav-name ul li span:hover {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
 
 /* .Nav .Nav-name ul li {
   border-bottom: 2px solid rgb(18, 30, 204);
@@ -50,6 +54,12 @@
   border-bottom: 2px solid black;
   width: 100%;
   z-index: 1;
+}
+.small-nav span:hover {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
