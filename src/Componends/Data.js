@@ -21,7 +21,7 @@ const Data = {
             id: 2,
             src: "image/bookmyshow.jpg",
             title: "Book my show",
-            text: "It's a MERN App where user can book there movie ticket. And it's also have the Admin dashboard ",
+            text: "It's a MERN App where user can book there movie ticket and make there payment by using razorpay. ",
             features: [
                 { 1: "React" },
                 { 1: "MongoDB" },
@@ -33,19 +33,6 @@ const Data = {
         },
         {
             id: 3,
-            src: "image/Social-Media.jpg",
-            title: "Post Image",
-            text: "It's like a Social media where user can post there photos on the site.",
-            features: [
-                { 1: "React" },
-                { 1: "MongoDB" },
-                { 1: "Node.js" }
-            ],
-            ProjectUrl1: "https://captone-project.netlify.com/",
-            GithubUrl1: "https://github.com/viratpatel1/capstone"
-        },
-        {
-            id: 4,
             src: "image/kbc.jpg",
             title: "KBC",
             text: "It's a KBC game you can play and view the increment of amount on your correct answer.",
@@ -57,7 +44,7 @@ const Data = {
             GithubUrl1: "https://github.com/viratpatel1/-KBC"
         },
         {
-            id: 5,
+            id: 4,
             src: "image/Netflix.jpg",
             title: "Netflix Clone",
             text: "Here you can see the movies trailers, and to post a new movie login to admin and do the action.",
@@ -70,7 +57,7 @@ const Data = {
             GithubUrl1: "https://github.com/viratpatel1/Netfilx-Clone"
         },
         {
-            id: 6,
+            id: 5,
             src: "image/ChatApp-1.jpg",
             title: "Chat App with DB",
             text: "Chat Application which need login credential to chat with existing user, can also see your chat history.",
@@ -85,46 +72,7 @@ const Data = {
             GithubUrl1: "https://github.com/viratpatel1/ChapApp"
         },
         {
-            id: 7,
-            src: "image/Gmail.jpg",
-            title: "Gmail API",
-            text: "It's A Demo of A Gmail Where you can Login with your valid email id to check yr email.",
-            features: [
-                { 1: "HTML" },
-                { 1: "JavasScript" }
-            ],
-            ProjectUrl1: "https://blissful-raman-c8ad93.netlify.app/",
-            GithubUrl1: "https://github.com/viratpatel1/1-Hackathon-Gmail-Clone-API"
-        },
-        {
-            id: 8,
-            src: "image/CRUD.jpg",
-            title: "CRUD App",
-            text: " Web App where You can easily Create and Delete your Infomation.",
-            features: [
-                { 1: "React" },
-                { 1: "React Hooks" },
-                { 1: "API" }
-            ],
-            ProjectUrl1: "https://users-cruds.netlify.app/",
-            GithubUrl1: "https://github.com/viratpatel1/CRUD"
-        },
-        {
-            id: 9,
-            src: "image/API-1.jpg",
-            title: "APIs",
-            text: "Click to see Projects Based on APIs.",
-            features: [
-                { 1: "React" },
-                { 1: "API" },
-            ],
-            ProjectUrl1: "https://moviesdb-api.netlify.app/",
-            ProjectUrl2: "https://advice-quote.netlify.app/",
-            ProjectUrl3: "https://realtime-covid-19-cases.netlify.app/",
-
-        },
-        {
-            id: 10,
+            id: 6,
             src: "image/Video-Chat.jpg",
             title: "Video Chat",
             text: "To Use this Enter Your name and then Genrate the ID and Share the ID with whom you want to communicate",
@@ -136,7 +84,60 @@ const Data = {
             ProjectUrl1: "https://videos-chats.netlify.app/",
             GithubUrl1: "https://github.com/viratpatel1/Video-Chat"
 
+        },
+        {
+            id: 7,
+            src: "image/Social-Media.jpg",
+            title: "Post Image",
+            text: "It's like a Social media where user can post there photos on the site.",
+            features: [
+                { 1: "React" },
+                { 1: "MongoDB" },
+                { 1: "Node.js" }
+            ],
+            ProjectUrl1: "https://captone-project.netlify.com/",
+            GithubUrl1: "https://github.com/viratpatel1/capstone"
+        },
+        {
+            id: 8,
+            src: "image/Gmail.jpg",
+            title: "Gmail API",
+            text: "It's A Demo of A Gmail Where you can Login with your valid email id to check yr email.",
+            features: [
+                { 1: "HTML" },
+                { 1: "JavasScript" }
+            ],
+            ProjectUrl1: "https://blissful-raman-c8ad93.netlify.app/",
+            GithubUrl1: "https://github.com/viratpatel1/1-Hackathon-Gmail-Clone-API"
         }
+        // {
+        //     id: 8,
+        //     src: "image/CRUD.jpg",
+        //     title: "CRUD App",
+        //     text: " Web App where You can easily Create and Delete your Infomation.",
+        //     features: [
+        //         { 1: "React" },
+        //         { 1: "React Hooks" },
+        //         { 1: "API" }
+        //     ],
+        //     ProjectUrl1: "https://users-cruds.netlify.app/",
+        //     GithubUrl1: "https://github.com/viratpatel1/CRUD"
+        // },
+        // {
+        //     id: 9,
+        //     src: "image/API-1.jpg",
+        //     title: "APIs",
+        //     text: "Click to see Projects Based on APIs.",
+        //     features: [
+        //         { 1: "React" },
+        //         { 1: "API" },
+        //     ],
+        //     ProjectUrl1: "https://moviesdb-api.netlify.app/",
+        //     ProjectUrl2: "https://advice-quote.netlify.app/",
+        //     ProjectUrl3: "https://realtime-covid-19-cases.netlify.app/",
+
+        // }
+
     ]
 }
 

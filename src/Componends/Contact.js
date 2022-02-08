@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 // import ContactSvg1 from '../SVG/contact-1.svg';
 import ContactSvg2 from '../SVG/contact-2.svg';
+import { IoMdPin } from 'react-icons/io';
+// import LocationOnIcon from '@mui/icons-material/LocationOn';
 import Insta from '../SVG/insta.svg';
 import '../Css/Contact.css';
 
@@ -28,8 +30,12 @@ const Contact = () =>
                                 {/* <li><a href="https://www.instagram.com/viratpatel1998/" target="_blank" ><p>Instagram</p><img src={Insta} /></a></li> */}
                             </ul>
 
-
+                            <div className='location'>
+                                <IoMdPin style={{ fontSize: "25px" }} />
+                                <p >Mumbai, India</p>
+                            </div>
                         </Col>
+                        {/* <i class="bi bi-geo-alt-fill"></i> */}
                     </Row>
                 </Container>
             </div>

@@ -46,6 +46,17 @@
 .get {
   margin: 20% 0 0 0;
 }
+
+.location {
+  display: flex;
+  margin: 10px 0 0 60px;
+}
+
+.location p {
+  margin: "4px 0 0 5px";
+  font-size: "14px";
+}
+
 @media screen and (max-width: 990px) {
   .get {
     margin: 40% 0 0 0;
@@ -72,6 +83,9 @@
     align-items: center;
     justify-content: center;
   }
+  .location {
+    margin: 5px 0 0 39%;
+  }
 }
 @media screen and (max-width: 480px) {
   .svg-img {
@@ -80,5 +94,8 @@
     align-items: center;
     justify-content: center;
     margin: -30% 0 0 8%;
+  }
+  .location {
+    margin: 5px 0 0 35%;
   }
 }

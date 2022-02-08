@@ -34,10 +34,10 @@ const Skill = () =>
                             </div>
                             <div className="bg">
                                 <ul>
-                                    <li>MySQL</li>
+                                    <li>HTML</li>
                                     {/* <li>60%</li> */}
                                 </ul>
-                                <ProgressBar className="bar" now={MySQL} label={`${MySQL}%`} />
+                                <ProgressBar className="bar" now={Express} label={`${Express}%`} />
                             </div>
                             <div className="bg">
                                 <ul>
@@ -46,13 +46,13 @@ const Skill = () =>
                                 </ul>
                                 <ProgressBar className="bar" now={Python} label={`${Python}%`} />
                             </div>
-                            <div className="bg">
+                            {/* <div className="bg">
                                 <ul>
                                     <li>BootStrap</li>
-                                    {/* <li>65%</li> */}
+                                    <li>65%</li>
                                 </ul>
                                 <ProgressBar className="bar" now={Node} label={`${Node}%`} />
-                            </div>
+                            </div> */}
                         </Col>
                         <Col>
                             <div className="bg">
@@ -78,18 +78,18 @@ const Skill = () =>
                             </div>
                             <div className="bg">
                                 <ul>
-                                    <li>Java</li>
+                                    <li>CSS</li>
                                     {/* <li>60%</li> */}
-                                </ul>
-                                <ProgressBar className="bar" now={MySQL} label={`${MySQL}%`} />
-                            </div>
-                            <div className="bg">
-                                <ul>
-                                    <li>Github</li>
-                                    {/* <li>65%</li> */}
                                 </ul>
                                 <ProgressBar className="bar" now={Node} label={`${Node}%`} />
                             </div>
+                            {/* <div className="bg">
+                                <ul>
+                                    <li>Github</li>
+                                    <li>65%</li>
+                                </ul>
+                                <ProgressBar className="bar" now={Node} label={`${Node}%`} />
+                            </div> */}
                         </Col>
                     </Row>
                 </Container>

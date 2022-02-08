@@ -11,7 +11,7 @@ const Project = () =>
     const [noOfElement, setNoOfElement] = useState(3);
     // const [empty, setEmpty] = useState('Load Mores');
     const slice = Data.projectData.slice(0, noOfElement);
-    const MaxLength = 10;
+    const MaxLength = 8;
     const Length = slice.length;
     console.log(Length)
     const LoadMore = () =>
