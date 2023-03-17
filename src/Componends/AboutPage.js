@@ -14,7 +14,7 @@ const AboutPage = () =>
                     </Col> */}
                     <h2>About</h2>
                     <Col sm={12} className="coll-2" >
-                        <p>Hello! I'm Virat Patel, a passionate Web Developer. I have graduated with Bachelors Degrees in ETRX Engineering(2016-2020) from <a href="https://slrtce.in/" target="_blank" ><span className="clg" >SLRTCE</span></a> in Mumbai University. </p>
+                        <p>Hello! I'm Virat Patel, a passionate Full Stack Developer in MERN. I have graduated with Bachelors Degrees in ETRX Engineering(2016-2020) from <a href="https://slrtce.in/" target="_blank" ><span className="clg" >SLRTCE</span></a> in Mumbai University. </p>
                         <p> I like to work with JavaScript, React and Python. My Core skill is MERN Stack Developer and I love to work with APIs. Along with this I have also work on IoT Project and had published our Project Paper and got the <a href="https://drive.google.com/file/d/1itee6Sw73QyJfwwnIgJOdrKScoeBxqM7/view" target="_blank" ><span className="clg" >Certificate</span></a>.</p>
                         <p> I am avaiable to work in a professional environment with like-minded people and work hard with my skills towards the vision, mission and goal of the company.</p> <br />
                     </Col>
