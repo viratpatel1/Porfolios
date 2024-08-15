@@ -110,7 +110,7 @@ function Banner() {
                   margin: "10px 0 0 0",
                   padding: "5px 10px",
                 }}
-                href="https://drive.google.com/file/d/1QGRSqdPbcKGAAP5XLWohl1PU3EYlhK9A/view"
+                href="https://drive.google.com/file/d/1HZsvKdspk7Aq75ZsnUoh2k-xC7P7VC3o/view?usp=drive_link"
                 target="_blank"
               >
                 Resume

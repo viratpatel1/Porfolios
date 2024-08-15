@@ -14,7 +14,7 @@ const AboutPage = () => {
           <Col sm={12} className="coll-2">
             <p>
               Hello! I'm a passionate Full Stack Developer in MERN. I have
-              <b style={{ color: "blue" }}> 1.5 years</b> of Work Experience on
+              <b style={{ color: "blue" }}> 3 years</b> of Work Experience on
               different technologies and tools mention in my resume. I like to
               work in a competitive environment to give my best output.
             </p>
